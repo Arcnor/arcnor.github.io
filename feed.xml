@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.arcnor.com/</link>
     <atom:link href="http://blog.arcnor.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2015 21:45:05 +1000</pubDate>
-    <lastBuildDate>Thu, 14 May 2015 21:45:05 +1000</lastBuildDate>
+    <pubDate>Thu, 14 May 2015 21:56:35 +1000</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 21:56:35 +1000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       
@@ -206,7 +206,7 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
       
       <item>
         <title>Quirky Nimbus Hacking</title>
-        <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Part 2 is up! &lt;a href=&quot;/2014/05/19/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Part 2 is up! &lt;a href=&quot;/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;a-bit-of-history&quot;&gt;A bit of history&lt;/h1&gt;
 
@@ -255,7 +255,7 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 &lt;li&gt;Pin D &amp;amp; E: Left/Right buttons.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I&amp;#39;ll left out the I2C protocol details (those used to control the dials and the LEDs) out so this post won&amp;#39;t become a monster, but if you want those, check the second part of this post (&lt;a href=&quot;/2014/05/19/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;) :).&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ll left out the I2C protocol details (those used to control the dials and the LEDs) out so this post won&amp;#39;t become a monster, but if you want those, check the second part of this post (&lt;a href=&quot;/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;) :).&lt;/p&gt;
 
 &lt;p&gt;All this also left me wonder if there is a way to reprogram the PIC from the electric imp itself (maybe with that unused pin B) but I&amp;#39;m not in the mood of tracing tracks on the PCB, and I cannot revert my Nimbus back to the original firmware, so I&amp;#39;m happy with the results :).&lt;/p&gt;
 
@@ -277,7 +277,7 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 &lt;p&gt;As usual, comment or tweet if you have any questions or suggestions on what to hack next :)&lt;/p&gt;
 </description>
         
-          <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Part 2 is up! &lt;a href=&quot;/2014/05/19/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Part 2 is up! &lt;a href=&quot;/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;a-bit-of-history&quot;&gt;A bit of history&lt;/h1&gt;
 
@@ -326,7 +326,7 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 &lt;li&gt;Pin D &amp;amp; E: Left/Right buttons.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I&amp;#39;ll left out the I2C protocol details (those used to control the dials and the LEDs) out so this post won&amp;#39;t become a monster, but if you want those, check the second part of this post (&lt;a href=&quot;/2014/05/19/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;) :).&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ll left out the I2C protocol details (those used to control the dials and the LEDs) out so this post won&amp;#39;t become a monster, but if you want those, check the second part of this post (&lt;a href=&quot;/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;) :).&lt;/p&gt;
 
 &lt;p&gt;All this also left me wonder if there is a way to reprogram the PIC from the electric imp itself (maybe with that unused pin B) but I&amp;#39;m not in the mood of tracing tracks on the PCB, and I cannot revert my Nimbus back to the original firmware, so I&amp;#39;m happy with the results :).&lt;/p&gt;
 
