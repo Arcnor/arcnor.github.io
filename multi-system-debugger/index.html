@@ -97,7 +97,7 @@ ga('send', 'pageview');
 
 <p>Basically, I wanted to give emulation a try, and I decided to make my code extensible, so the common infrastructure can be used for multiple systems (what I call a system is a combination of CPU+GPU+peripherals). I started by implementing the CPU part of the systems, and implemented a Z80 and MOS6502 cores useful for different ones like the GameBoy or NES. Then I implemented the memory/IO structure of the different systems, so we have a way of reading our ROM and writing to RAM and to memory mapped peripherals.</p>
 
-<!-- more -->
+<!--more-->
 
 <p>Finally, to wire everything, I created both a &quot;CPU debugger&quot; and a &quot;system debugger&quot;. This just means that besides doing normal things like stepping through instructions (an action that differs based on the CPU type, as we can have fixed length instructions like ARM, or variable length like x86), the system debugger knows that some regions on memory are called X or Y (as an example, on the C64 the 0xFD02 address is used to check the cartridge), so the debugger has some comments specifying the known regions on memory. An idea that was not implemented (among another million ideas) was that besides specific regions in memory, a group of instructions can be identified and commented on as well (for example, a group of instructions in a particular order with a particular data or addresses might be used to check the status of the game controllers)</p>
 

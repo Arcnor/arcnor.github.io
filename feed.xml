@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.arcnor.com/</link>
     <atom:link href="http://blog.arcnor.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2015 22:00:06 +1000</pubDate>
-    <lastBuildDate>Thu, 14 May 2015 22:00:06 +1000</lastBuildDate>
+    <pubDate>Thu, 14 May 2015 22:04:26 +1000</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 22:04:26 +1000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       
@@ -216,7 +216,7 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 
 &lt;p&gt;But my inner hacker was very curious, so I did some investigation in order to learn how this device worked and the customization possibilities.&lt;/p&gt;
 
-&lt;!-- more --&gt;
+&lt;!--more--&gt;
 
 &lt;p&gt;I discovered the Nimbus uses an &lt;a href=&quot;https://electricimp.com/&quot;&gt;Electric IMP&lt;/a&gt; as its core. This little device is basically an ARM CPU tied with an always online cloud platform in which you code your firmware and gets deployed to all your devices.&lt;/p&gt;
 
@@ -286,66 +286,6 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 &lt;p&gt;On itself, the device was a bit useless for me, as it was oriented for social media (you can show your tweeted messages for example) and some other uses I don&amp;#39;t care about (like the time it will take you to arrive at work depending on the traffic. I walk to work :P).&lt;/p&gt;
 
 &lt;p&gt;But my inner hacker was very curious, so I did some investigation in order to learn how this device worked and the customization possibilities.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;I discovered the Nimbus uses an &lt;a href=&quot;https://electricimp.com/&quot;&gt;Electric IMP&lt;/a&gt; as its core. This little device is basically an ARM CPU tied with an always online cloud platform in which you code your firmware and gets deployed to all your devices.&lt;/p&gt;
-
-&lt;p&gt;The problem was, if I wanted to modify how the Nimbus worked, I had to &amp;quot;unbless&amp;quot; the device to add my code, and to do that you need to be the manufacturer. So I contacted the awesome support guys at Quirky (hey, Domenick!) and after explaining to them that I basically wanted to hack the device, they agreed to unbless it for me! They also warned me that I&amp;#39;d have to write everything from scratch, including fonts and everything else, because understandably I won&amp;#39;t have access to their firmware source, but that was part of the fun, so I was happy :).&lt;/p&gt;
-
-&lt;h1 id=&quot;the-specs&quot;&gt;The specs&lt;/h1&gt;
-
-&lt;p&gt;With those wonderful news, I ordered one and cracked it open the very first minute it arrived :D. I learned that internally, the device was as follows:&lt;/p&gt;
-
-&lt;p&gt;The interactive parts:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;4 dials&lt;/li&gt;
-&lt;li&gt;4 blue LED matrix displays&lt;/li&gt;
-&lt;li&gt;2 buttons&lt;/li&gt;
-&lt;li&gt;1 speaker&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The brains:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 Electric Imp (imp002)&lt;/li&gt;
-&lt;li&gt;1 PIC16F1829&lt;/li&gt;
-&lt;li&gt;1 W25X40 (4MBit serial flash)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;the-details&quot;&gt;The details&lt;/h1&gt;
-
-&lt;p&gt;After checking the internals, I fired up my logic analyzer and started analyzing signals. This is what I discovered (only on the electric imp side, the one we can actually control)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pin 1 &amp;amp; Pin A: Controls the speaker. Pin A enables and disables the sound, where a PWM on pin 1 generates the sound itself. On the original firmware it&amp;#39;s used when an alarm sounds with an annoying &amp;#39;beeeep&amp;#39;, but I generated something more nice in my demo (check on the results at the bottom of the post).&lt;/li&gt;
-&lt;li&gt;Pin 2, 5, 6 &amp;amp; 7: Connected to the flash memory using an SPI interface (in order, DO, CLK, /CE and DI).&lt;/li&gt;
-&lt;li&gt;Pin 8 &amp;amp; 9: I2C between imp and PIC.&lt;/li&gt;
-&lt;li&gt;Pin C: Background brightness, using a simple PWM.&lt;/li&gt;
-&lt;li&gt;Pin D &amp;amp; E: Left/Right buttons.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I&amp;#39;ll left out the I2C protocol details (those used to control the dials and the LEDs) out so this post won&amp;#39;t become a monster, but if you want those, check the second part of this post (&lt;a href=&quot;/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;) :).&lt;/p&gt;
-
-&lt;p&gt;All this also left me wonder if there is a way to reprogram the PIC from the electric imp itself (maybe with that unused pin B) but I&amp;#39;m not in the mood of tracing tracks on the PCB, and I cannot revert my Nimbus back to the original firmware, so I&amp;#39;m happy with the results :).&lt;/p&gt;
-
-&lt;h1 id=&quot;the-results&quot;&gt;The results&lt;/h1&gt;
-
-&lt;p&gt;With all those details, I created a simple firmware on my own that controls everything there is to control. I can even create a Quirky &lt;a href=&quot;https://www.quirky.com/shop/609-spotter-multi-purpose-sensor?r=3e94bcde665cb74c25b8a126fd0a9087&quot;&gt;Spotter&lt;/a&gt;, another of Quirky curious products, as I can read the amount of light the sensor of the imp receives (basically what the Spotter does).&lt;/p&gt;
-
-&lt;iframe 
-     width=&quot;532&quot; 
-     height=&quot;400&quot; 
-     src=&quot;https://www.youtube.com/embed/R2kULmfCv38&quot;
-     frameborder=&quot;0&quot; 
-     allowfullscreen=&quot;allowfullscreen&quot;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;I don&amp;#39;t use the buttons here, but you can imagine what those do ;). I&amp;#39;m also currently waiting for the electric imp guys to provide me with a better way of changing the PWM frequency, as the trick I&amp;#39;m using right now produces clicks, and that&amp;#39;s why you don&amp;#39;t hear a better sound (I want to add some effects like the original speaker version :D)&lt;/p&gt;
-
-&lt;p&gt;Anyway, hope you like my little hacking! A lot of thanks to the Quirky guys for opening the device up for me, even if they didn&amp;#39;t have to, and specially to Domenick for going through all the process with me and being super helpful in general!.&lt;/p&gt;
-
-&lt;p&gt;As usual, comment or tweet if you have any questions or suggestions on what to hack next :)&lt;/p&gt;
 </description>
         
         <pubDate>Thu, 15 May 2014 19:58:05 +1000</pubDate>
@@ -371,7 +311,7 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 
 &lt;p&gt;Basically, I wanted to give emulation a try, and I decided to make my code extensible, so the common infrastructure can be used for multiple systems (what I call a system is a combination of CPU+GPU+peripherals). I started by implementing the CPU part of the systems, and implemented a Z80 and MOS6502 cores useful for different ones like the GameBoy or NES. Then I implemented the memory/IO structure of the different systems, so we have a way of reading our ROM and writing to RAM and to memory mapped peripherals.&lt;/p&gt;
 
-&lt;!-- more --&gt;
+&lt;!--more--&gt;
 
 &lt;p&gt;Finally, to wire everything, I created both a &amp;quot;CPU debugger&amp;quot; and a &amp;quot;system debugger&amp;quot;. This just means that besides doing normal things like stepping through instructions (an action that differs based on the CPU type, as we can have fixed length instructions like ARM, or variable length like x86), the system debugger knows that some regions on memory are called X or Y (as an example, on the C64 the 0xFD02 address is used to check the cartridge), so the debugger has some comments specifying the known regions on memory. An idea that was not implemented (among another million ideas) was that besides specific regions in memory, a group of instructions can be identified and commented on as well (for example, a group of instructions in a particular order with a particular data or addresses might be used to check the status of the game controllers)&lt;/p&gt;
 
@@ -391,20 +331,6 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 &lt;p&gt;The first one I&amp;#39;m going to talk about is my Multi System Debugger/Emulator, &lt;a href=&quot;https://bitbucket.org/arcnor/anouckggms&quot;&gt;AnouckGGMS&lt;/a&gt;, something like &lt;a href=&quot;http://www.mess.org&quot;&gt;MESS&lt;/a&gt; but obviously way simpler and incomplete :).&lt;/p&gt;
 
 &lt;p&gt;Basically, I wanted to give emulation a try, and I decided to make my code extensible, so the common infrastructure can be used for multiple systems (what I call a system is a combination of CPU+GPU+peripherals). I started by implementing the CPU part of the systems, and implemented a Z80 and MOS6502 cores useful for different ones like the GameBoy or NES. Then I implemented the memory/IO structure of the different systems, so we have a way of reading our ROM and writing to RAM and to memory mapped peripherals.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Finally, to wire everything, I created both a &amp;quot;CPU debugger&amp;quot; and a &amp;quot;system debugger&amp;quot;. This just means that besides doing normal things like stepping through instructions (an action that differs based on the CPU type, as we can have fixed length instructions like ARM, or variable length like x86), the system debugger knows that some regions on memory are called X or Y (as an example, on the C64 the 0xFD02 address is used to check the cartridge), so the debugger has some comments specifying the known regions on memory. An idea that was not implemented (among another million ideas) was that besides specific regions in memory, a group of instructions can be identified and commented on as well (for example, a group of instructions in a particular order with a particular data or addresses might be used to check the status of the game controllers)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/generated/anouckggms-debugger-600x0-fcf930.png&quot; &gt;&lt;/p&gt;
-
-&lt;p&gt;As you can see, the debugger has a memory viewer (bottom left) with the different regions depending on the selected system, a simple console (top left) to enter commands, a breakpoint list (right) that right now doesn&amp;#39;t do much except listing the breakpoints and going to them when double clicking, and the debugger window itself (center). This last one has the disassembly of the loaded ROM, registers at the bottom and a graphical representation of the memory á la IDA Pro at the top (the colors represent data, code or unknown). I know the scrollbars look a bit odd, but I never finished customizing the look and feel I created for the app :).&lt;/p&gt;
-
-&lt;p&gt;And that&amp;#39;s mostly it. Right now is very incomplete, but you can debug some of the simplest provided ROMs (like the NES test), although the timings are not right yet. I also started to implement one of the GPUs (TMS9918 as it had the best docs IMHO and the part I implemented was very simple to do) and created a test for it.&lt;/p&gt;
-
-&lt;p&gt;One last thing: Related to this, I started revamping some old technical documents and uploaded them to another repo (&lt;a href=&quot;https://bitbucket.org/arcnor/techdocsrevamp&quot;&gt;TechDocsRevamp&lt;/a&gt;). Maybe in the future I&amp;#39;ll add more of those.&lt;/p&gt;
-
-&lt;p&gt;If you find this interesting, drop me a line here or on Twitter :).&lt;/p&gt;
 </description>
         
         <pubDate>Tue, 13 May 2014 20:14:28 +1000</pubDate>
@@ -431,7 +357,7 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 
 &lt;p&gt;What I did was create a few utils to convert the graphics from the game data files to PNGs, the map data files to &lt;a href=&quot;http://www.mapeditor.org&quot;&gt;Tiled&lt;/a&gt; TMX format, and the cities information data files to JSON.&lt;/p&gt;
 
-&lt;!-- more --&gt;
+&lt;!--more--&gt;
 
 &lt;p&gt;Then, I mixed all this using the awesome &lt;a href=&quot;http://haxeflixel.com/&quot;&gt;Haxe Flixel&lt;/a&gt; engine. That means the game works with little or no changes on a computer (Mac / Linux / Windows), iOS (it looks very nice on iPad, as the original assets are exactly the right resolution, 1024x768) and Android (and some others, like Tizen, Firefox OS or Blackberry, but I haven&amp;#39;t tried those).&lt;/p&gt;
 
@@ -456,22 +382,6 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 &lt;p&gt;I discovered this game many years ago, and I thought it was very funny. Basically, it&amp;#39;s a &lt;em&gt;Monopoly&lt;/em&gt; game with a few additions, but you really need to try it with a few friends to see all the little details they added.&lt;/p&gt;
 
 &lt;p&gt;What I did was create a few utils to convert the graphics from the game data files to PNGs, the map data files to &lt;a href=&quot;http://www.mapeditor.org&quot;&gt;Tiled&lt;/a&gt; TMX format, and the cities information data files to JSON.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Then, I mixed all this using the awesome &lt;a href=&quot;http://haxeflixel.com/&quot;&gt;Haxe Flixel&lt;/a&gt; engine. That means the game works with little or no changes on a computer (Mac / Linux / Windows), iOS (it looks very nice on iPad, as the original assets are exactly the right resolution, 1024x768) and Android (and some others, like Tizen, Firefox OS or Blackberry, but I haven&amp;#39;t tried those).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://arcnor.files.wordpress.com/2014/04/gamescene.png&quot;&gt;&lt;img src=&quot;http://arcnor.files.wordpress.com/2014/04/gamescene.png&quot; alt=&quot;Remake scene&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It looks almost exactly the same as the original (some things are pixel-by-pixel in the same position), although it has better font rendering, some dialogs are centered differently on the screen, and a few fades for menus and other interface elements.&lt;/p&gt;
-
-&lt;p&gt;The game is far from finished (two weeks working sporadically is not enough to finish a game this size), but you can move around the map, winning or losing money, as well as getting cards (like the screenshot shows). Your destination is also shown and the shortest route is displayed for you using arrows, like in the original (the algorithm might be different, though).&lt;/p&gt;
-
-&lt;p&gt;We have another challenge (this time a full month) so sadly I won&amp;#39;t be finishing this anytime soon. I, however, might finish it in the future as it looks too nice not to.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;d also like to publish the source, although I need to find a way of not having to upload the assets, as I don&amp;#39;t want any legal trouble (doubtful, but who knows). Maybe releasing the tools to automatically create the new assets from the originals will suffice. Even the demo has (almost) all the needed assets, although they are in a lower resolution.&lt;/p&gt;
-
-&lt;p&gt;Anyway, drop me a line on my (mostly empty) Twitter if you want any details.&lt;/p&gt;
 </description>
         
         <pubDate>Tue, 25 Mar 2014 16:34:27 +1100</pubDate>
