@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.arcnor.com/</link>
     <atom:link href="http://blog.arcnor.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2015 22:18:39 +1000</pubDate>
-    <lastBuildDate>Thu, 14 May 2015 22:18:39 +1000</lastBuildDate>
+    <pubDate>Thu, 14 May 2015 22:49:21 +1000</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 22:49:21 +1000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       
@@ -350,8 +350,9 @@
       
       <item>
         <title>Dr Drago&#39;s Madcap Chase Remake!</title>
-        <description>&lt;p&gt;For the past two weeks, and as part of a friendly challenge between friends, I worked on a remake (well, more like a port) of a game called &lt;a href=&quot;http://www.mobygames.com/game/windows/dr-dragos-madcap-chase&quot;&gt;&amp;quot;Dr. Drago&amp;#39;s Madcap Chase&amp;quot;&lt;/a&gt; (or in the original German, &amp;quot;Die Total Verrückte Rallye&amp;quot;)
-&lt;a href=&quot;http://arcnor.files.wordpress.com/2014/04/drdragotitle.jpg&quot;&gt;&lt;img src=&quot;http://arcnor.files.wordpress.com/2014/04/drdragotitle.jpg&quot; alt=&quot;Dr Drago&amp;#39;s Title&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;For the past two weeks, and as part of a friendly challenge between friends, I worked on a remake (well, more like a port) of a game called &lt;a href=&quot;http://www.mobygames.com/game/windows/dr-dragos-madcap-chase&quot;&gt;&amp;quot;Dr. Drago&amp;#39;s Madcap Chase&amp;quot;&lt;/a&gt; (or in the original German, &amp;quot;Die Total Verrückte Rallye&amp;quot;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/generated/drdragotitle-512x0-760a45.jpg&quot; &gt;&lt;/p&gt;
 
 &lt;p&gt;If you don&amp;#39;t know the game, don&amp;#39;t worry too much, as from my sightings in forums, this is a relatively unknown game from BlueByte (you know, the guys from &lt;a href=&quot;http://www.mobygames.com/game/dos/albion&quot;&gt;Albion&lt;/a&gt;... although you probably don&amp;#39;t know that one as well. However, &lt;a href=&quot;http://www.mobygames.com/game-group/settlers-series&quot;&gt;The Settlers&lt;/a&gt; will surely ring a bell).&lt;/p&gt;
 
@@ -363,7 +364,7 @@
 
 &lt;p&gt;Then, I mixed all this using the awesome &lt;a href=&quot;http://haxeflixel.com/&quot;&gt;Haxe Flixel&lt;/a&gt; engine. That means the game works with little or no changes on a computer (Mac / Linux / Windows), iOS (it looks very nice on iPad, as the original assets are exactly the right resolution, 1024x768) and Android (and some others, like Tizen, Firefox OS or Blackberry, but I haven&amp;#39;t tried those).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://arcnor.files.wordpress.com/2014/04/gamescene.png&quot;&gt;&lt;img src=&quot;http://arcnor.files.wordpress.com/2014/04/gamescene.png&quot; alt=&quot;Remake scene&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/generated/drdrago-gamescene-600x0-67e4dd.png&quot; &gt;&lt;/p&gt;
 
 &lt;p&gt;It looks almost exactly the same as the original (some things are pixel-by-pixel in the same position), although it has better font rendering, some dialogs are centered differently on the screen, and a few fades for menus and other interface elements.&lt;/p&gt;
 
@@ -376,8 +377,9 @@
 &lt;p&gt;Anyway, drop me a line on my (mostly empty) Twitter if you want any details.&lt;/p&gt;
 </description>
         
-          <description>&lt;p&gt;For the past two weeks, and as part of a friendly challenge between friends, I worked on a remake (well, more like a port) of a game called &lt;a href=&quot;http://www.mobygames.com/game/windows/dr-dragos-madcap-chase&quot;&gt;&amp;quot;Dr. Drago&amp;#39;s Madcap Chase&amp;quot;&lt;/a&gt; (or in the original German, &amp;quot;Die Total Verrückte Rallye&amp;quot;)
-&lt;a href=&quot;http://arcnor.files.wordpress.com/2014/04/drdragotitle.jpg&quot;&gt;&lt;img src=&quot;http://arcnor.files.wordpress.com/2014/04/drdragotitle.jpg&quot; alt=&quot;Dr Drago&amp;#39;s Title&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+          <description>&lt;p&gt;For the past two weeks, and as part of a friendly challenge between friends, I worked on a remake (well, more like a port) of a game called &lt;a href=&quot;http://www.mobygames.com/game/windows/dr-dragos-madcap-chase&quot;&gt;&amp;quot;Dr. Drago&amp;#39;s Madcap Chase&amp;quot;&lt;/a&gt; (or in the original German, &amp;quot;Die Total Verrückte Rallye&amp;quot;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/generated/drdragotitle-512x0-760a45.jpg&quot; &gt;&lt;/p&gt;
 
 &lt;p&gt;If you don&amp;#39;t know the game, don&amp;#39;t worry too much, as from my sightings in forums, this is a relatively unknown game from BlueByte (you know, the guys from &lt;a href=&quot;http://www.mobygames.com/game/dos/albion&quot;&gt;Albion&lt;/a&gt;... although you probably don&amp;#39;t know that one as well. However, &lt;a href=&quot;http://www.mobygames.com/game-group/settlers-series&quot;&gt;The Settlers&lt;/a&gt; will surely ring a bell).&lt;/p&gt;
 
