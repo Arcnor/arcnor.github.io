@@ -4,10 +4,10 @@
     <title>Edu Garcia</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://arcnor.github.io/</link>
-    <atom:link href="http://arcnor.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2015 21:13:12 +1000</pubDate>
-    <lastBuildDate>Thu, 14 May 2015 21:13:12 +1000</lastBuildDate>
+    <link>http://blog.arcnor.com/</link>
+    <atom:link href="http://blog.arcnor.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 May 2015 21:45:05 +1000</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 21:45:05 +1000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       
@@ -48,8 +48,8 @@
 </description>
         
         <pubDate>Sat, 11 Oct 2014 17:30:53 +1100</pubDate>
-        <link>http://arcnor.github.io/pixel-dungeon-port/</link>
-        <guid isPermaLink="true">http://arcnor.github.io/pixel-dungeon-port/</guid>
+        <link>http://blog.arcnor.com/pixel-dungeon-port/</link>
+        <guid isPermaLink="true">http://blog.arcnor.com/pixel-dungeon-port/</guid>
         
         
       </item>
@@ -190,8 +190,8 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 </description>
         
         <pubDate>Mon, 19 May 2014 22:28:26 +1000</pubDate>
-        <link>http://arcnor.github.io/quirky-nimbus-hacking-part-2/</link>
-        <guid isPermaLink="true">http://arcnor.github.io/quirky-nimbus-hacking-part-2/</guid>
+        <link>http://blog.arcnor.com/quirky-nimbus-hacking-part-2/</link>
+        <guid isPermaLink="true">http://blog.arcnor.com/quirky-nimbus-hacking-part-2/</guid>
         
         <category>hacking</category>
         
@@ -349,8 +349,8 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 </description>
         
         <pubDate>Thu, 15 May 2014 19:58:05 +1000</pubDate>
-        <link>http://arcnor.github.io/quirky-nimbus-hacking/</link>
-        <guid isPermaLink="true">http://arcnor.github.io/quirky-nimbus-hacking/</guid>
+        <link>http://blog.arcnor.com/quirky-nimbus-hacking/</link>
+        <guid isPermaLink="true">http://blog.arcnor.com/quirky-nimbus-hacking/</guid>
         
         <category>hacking</category>
         
@@ -408,8 +408,8 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 </description>
         
         <pubDate>Tue, 13 May 2014 20:14:28 +1000</pubDate>
-        <link>http://arcnor.github.io/multi-system-debugger/</link>
-        <guid isPermaLink="true">http://arcnor.github.io/multi-system-debugger/</guid>
+        <link>http://blog.arcnor.com/multi-system-debugger/</link>
+        <guid isPermaLink="true">http://blog.arcnor.com/multi-system-debugger/</guid>
         
         <category>emulation</category>
         
@@ -475,8 +475,8 @@ The imp communicates with the PIC using I2C as I already mentioned. Then in turn
 </description>
         
         <pubDate>Tue, 25 Mar 2014 16:34:27 +1100</pubDate>
-        <link>http://arcnor.github.io/dr-dragos-madcap-chase-remake/</link>
-        <guid isPermaLink="true">http://arcnor.github.io/dr-dragos-madcap-chase-remake/</guid>
+        <link>http://blog.arcnor.com/dr-dragos-madcap-chase-remake/</link>
+        <guid isPermaLink="true">http://blog.arcnor.com/dr-dragos-madcap-chase-remake/</guid>
         
         <category>haxe</category>
         
