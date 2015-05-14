@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.arcnor.com/</link>
     <atom:link href="http://blog.arcnor.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2015 22:04:26 +1000</pubDate>
-    <lastBuildDate>Thu, 14 May 2015 22:04:26 +1000</lastBuildDate>
+    <pubDate>Thu, 14 May 2015 22:18:39 +1000</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 22:18:39 +1000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       
@@ -66,9 +66,11 @@
 
 &lt;h1 id=&quot;following-protocol&quot;&gt;Following protocol&lt;/h1&gt;
 
-&lt;p&gt;Before starting, if you don&amp;#39;t know what &lt;a href=&quot;http://en.wikipedia.org/wiki/I%C2%B2C&quot;&gt;I2C&lt;/a&gt; is, better check it out first. I&amp;#39;ll wait.
-&amp;lt;!--more--&amp;gt;
-The imp communicates with the PIC using I2C as I already mentioned. Then in turn the PIC communicates with the displays and gauges, using also I2C. I haven&amp;#39;t checked the displays reference number, nor did I dump the PIC, but if anyone does any of those things (or both), please let me know, I&amp;#39;m curious :D.&lt;/p&gt;
+&lt;p&gt;Before starting, if you don&amp;#39;t know what &lt;a href=&quot;http://en.wikipedia.org/wiki/I%C2%B2C&quot;&gt;I2C&lt;/a&gt; is, better check it out first. I&amp;#39;ll wait.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The imp communicates with the PIC using I2C as I already mentioned. Then in turn the PIC communicates with the displays and gauges, using also I2C. I haven&amp;#39;t checked the displays reference number, nor did I dump the PIC, but if anyone does any of those things (or both), please let me know, I&amp;#39;m curious :D.&lt;/p&gt;
 
 &lt;h1 id=&quot;sending-data&quot;&gt;Sending data&lt;/h1&gt;
 
