@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edu Garcia</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://arcnor.github.io/</link>
+    <atom:link href="http://arcnor.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 May 2015 21:13:12 +1000</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 21:13:12 +1000</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      
+      <item>
+        <title>Pixel Dungeon port</title>
+        <description>&lt;p&gt;So it&amp;#39;s not lost in the vast Twitterverse, I&amp;#39;ll add a quick post here saying that a few weeks ago I started working on a port of the awesome game &amp;quot;Pixel Dungeon&amp;quot; to the desktop (Linux/Mac/Windows) and iOS platforms (it also continues to work on Android, but that&amp;#39;s less exciting I imagine), this time using the excellent LibGDX.&lt;/p&gt;
+
+&lt;div class=&#39;embed twitter&#39;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/watawatabou&quot;&gt;@watawatabou&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/pixeldungeon?src=hash&quot;&gt;#pixeldungeon&lt;/a&gt; on desktop and iOS thanks to &lt;a href=&quot;https://twitter.com/hashtag/libgdx?src=hash&quot;&gt;#libgdx&lt;/a&gt;! Still some bugs (you&amp;#39;re always naked) but playable! &lt;a href=&quot;http://t.co/Uj8vRITUvM&quot;&gt;pic.twitter.com/Uj8vRITUvM&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edu Garcia (@Arcnor) &lt;a href=&quot;https://twitter.com/Arcnor/status/505381527396425728&quot;&gt;August 29, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;After a few weeks working with the original creator, Watabou, yesterday he released the desktop version on his website (sadly, the iOS version will have to wait for better &amp;quot;key-less&amp;quot; support)&lt;/p&gt;
+
+&lt;div class=&#39;embed twitter&#39;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thanks to &lt;a href=&quot;https://twitter.com/Arcnor&quot;&gt;@Arcnor&lt;/a&gt; PD is now available for playing on PC/Mac/Linux. Here is the desktop version: &lt;a href=&quot;http://t.co/YzaQ3E9jh7&quot;&gt;http://t.co/YzaQ3E9jh7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Oleg Dolya (@watawatabou) &lt;a href=&quot;https://twitter.com/watawatabou/status/520540565277253633&quot;&gt;October 10, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;Besides some tweaks, keyboard support was added (including key remapping), so give it a try!&lt;/p&gt;
+
+&lt;p&gt;Code is available at Github (&lt;a href=&quot;https://github.com/arcnor/pixel-dungeon-gdx&quot;&gt;https://github.com/arcnor/pixel-dungeon-gdx&lt;/a&gt;), like the original.&lt;/p&gt;
+
+&lt;p&gt;Hope you enjoy it!&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;So it&amp;#39;s not lost in the vast Twitterverse, I&amp;#39;ll add a quick post here saying that a few weeks ago I started working on a port of the awesome game &amp;quot;Pixel Dungeon&amp;quot; to the desktop (Linux/Mac/Windows) and iOS platforms (it also continues to work on Android, but that&amp;#39;s less exciting I imagine), this time using the excellent LibGDX.&lt;/p&gt;
+
+&lt;div class=&#39;embed twitter&#39;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/watawatabou&quot;&gt;@watawatabou&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/pixeldungeon?src=hash&quot;&gt;#pixeldungeon&lt;/a&gt; on desktop and iOS thanks to &lt;a href=&quot;https://twitter.com/hashtag/libgdx?src=hash&quot;&gt;#libgdx&lt;/a&gt;! Still some bugs (you&amp;#39;re always naked) but playable! &lt;a href=&quot;http://t.co/Uj8vRITUvM&quot;&gt;pic.twitter.com/Uj8vRITUvM&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edu Garcia (@Arcnor) &lt;a href=&quot;https://twitter.com/Arcnor/status/505381527396425728&quot;&gt;August 29, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;After a few weeks working with the original creator, Watabou, yesterday he released the desktop version on his website (sadly, the iOS version will have to wait for better &amp;quot;key-less&amp;quot; support)&lt;/p&gt;
+
+&lt;div class=&#39;embed twitter&#39;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thanks to &lt;a href=&quot;https://twitter.com/Arcnor&quot;&gt;@Arcnor&lt;/a&gt; PD is now available for playing on PC/Mac/Linux. Here is the desktop version: &lt;a href=&quot;http://t.co/YzaQ3E9jh7&quot;&gt;http://t.co/YzaQ3E9jh7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Oleg Dolya (@watawatabou) &lt;a href=&quot;https://twitter.com/watawatabou/status/520540565277253633&quot;&gt;October 10, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;Besides some tweaks, keyboard support was added (including key remapping), so give it a try!&lt;/p&gt;
+
+&lt;p&gt;Code is available at Github (&lt;a href=&quot;https://github.com/arcnor/pixel-dungeon-gdx&quot;&gt;https://github.com/arcnor/pixel-dungeon-gdx&lt;/a&gt;), like the original.&lt;/p&gt;
+
+&lt;p&gt;Hope you enjoy it!&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 11 Oct 2014 17:30:53 +1100</pubDate>
+        <link>http://arcnor.github.io/pixel-dungeon-port/</link>
+        <guid isPermaLink="true">http://arcnor.github.io/pixel-dungeon-port/</guid>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Quirky Nimbus Hacking (part 2)</title>
+        <description>&lt;h1 id=&quot;details,-details&quot;&gt;Details, details&lt;/h1&gt;
+
+&lt;p&gt;The main point missing from my previous post was how to send anything to the gauges or the displays (well, and to the flash memory, but you&amp;#39;ll have to dig up the datasheet for that one, it&amp;#39;s very well explained).&lt;/p&gt;
+
+&lt;p&gt;Some people wanted a few more details about my previous experiment (&lt;a href=&quot;/2014/05/15/quirky-nimbus-hacking&quot;&gt;Quirky Nimbus Hacking&lt;/a&gt;), so here they are:&lt;/p&gt;
+
+&lt;h1 id=&quot;following-protocol&quot;&gt;Following protocol&lt;/h1&gt;
+
+&lt;p&gt;Before starting, if you don&amp;#39;t know what &lt;a href=&quot;http://en.wikipedia.org/wiki/I%C2%B2C&quot;&gt;I2C&lt;/a&gt; is, better check it out first. I&amp;#39;ll wait.
+&amp;lt;!--more--&amp;gt;
+The imp communicates with the PIC using I2C as I already mentioned. Then in turn the PIC communicates with the displays and gauges, using also I2C. I haven&amp;#39;t checked the displays reference number, nor did I dump the PIC, but if anyone does any of those things (or both), please let me know, I&amp;#39;m curious :D.&lt;/p&gt;
+
+&lt;h1 id=&quot;sending-data&quot;&gt;Sending data&lt;/h1&gt;
+
+&lt;p&gt;The communication happens at 400Khz.&lt;/p&gt;
+
+&lt;h2 id=&quot;displays&quot;&gt;Displays&lt;/h2&gt;
+
+&lt;p&gt;There are two register per display, one for controlling and another for data purposes.&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Kind/Display&lt;/th&gt;
+&lt;th&gt;0&lt;/th&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;th&gt;2&lt;/th&gt;
+&lt;th&gt;3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;0x74&lt;/td&gt;
+&lt;td&gt;0x7C&lt;/td&gt;
+&lt;td&gt;0x78&lt;/td&gt;
+&lt;td&gt;0x70&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data&lt;/td&gt;
+&lt;td&gt;0x76&lt;/td&gt;
+&lt;td&gt;0x7E&lt;/td&gt;
+&lt;td&gt;0x7A&lt;/td&gt;
+&lt;td&gt;0x72&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Initialization is needed before you can use the displays. Unfortunately, I haven&amp;#39;t dump the PIC code, so I don&amp;#39;t know what this initialization is exactly doing. For now, I just blindly call this (pseudocode):&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// `disp` is my I2C object, configured using the pins from my previous post&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x74&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x7C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x78&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x70&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xE2&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x20&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xC0&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x8D&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xEB&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x81\x30&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xB5&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xA1&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x31&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x46&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x2D&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x85&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xF2\x00&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xF3\x07&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x90&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xAF&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x40&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After initialization, to show anything on a display:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\xB0&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x10&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CTL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;\x00&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;DATA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;...with &lt;code&gt;data&lt;/code&gt; being a 41 bytes long array (because our displays are 41x7 pixels). Each byte of the array draws one column of pixels on the display, starting from the left. So &lt;code&gt;0x7F&lt;/code&gt; will draw a full row of pixels.&lt;/p&gt;
+
+&lt;h2 id=&quot;gauges&quot;&gt;Gauges&lt;/h2&gt;
+
+&lt;p&gt;Gauges don&amp;#39;t need any kind of initialization before using, but there is a subregister to affect every gauge that the original firmware uses as such. Also, there is only one I2C register to manage them: &lt;code&gt;0x4A&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The I2C packets are in the format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[register] [subregister] [2 byte gauge value]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;...and the subregisters are&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Kind/Gauge&lt;/th&gt;
+&lt;th&gt;0&lt;/th&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;th&gt;2&lt;/th&gt;
+&lt;th&gt;3&lt;/th&gt;
+&lt;th&gt;All&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;0xC8&lt;/td&gt;
+&lt;td&gt;0xE8&lt;/td&gt;
+&lt;td&gt;0xA8&lt;/td&gt;
+&lt;td&gt;0x88&lt;/td&gt;
+&lt;td&gt;0x0F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;...so:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;disp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x4A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0xE88000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;...will put the second gauge at the middle point.&lt;/p&gt;
+
+&lt;h1 id=&quot;final-words&quot;&gt;Final words&lt;/h1&gt;
+
+&lt;p&gt;I hope I haven&amp;#39;t confused anyone with all those details. I also expect the information to be correct, although I wrote most of it by memory, so some things might not be fully correct.&lt;/p&gt;
+
+&lt;p&gt;Anyway, if you still have any doubts, you know where to reach me!&lt;/p&gt;
+
+&lt;p&gt;Happy hacking :D&lt;/p&gt;
+</description>
+        
+          <description>&lt;h1 id=&quot;details,-details&quot;&gt;Details, details&lt;/h1&gt;
+
+&lt;p&gt;The main point missing from my previous post was how to send anything to the gauges or the displays (well, and to the flash memory, but you&amp;#39;ll have to dig up the datasheet for that one, it&amp;#39;s very well explained).&lt;/p&gt;
+
+&lt;p&gt;Some people wanted a few more details about my previous experiment (&lt;a href=&quot;/2014/05/15/quirky-nimbus-hacking&quot;&gt;Quirky Nimbus Hacking&lt;/a&gt;), so here they are:&lt;/p&gt;
+
+&lt;h1 id=&quot;following-protocol&quot;&gt;Following protocol&lt;/h1&gt;
+
+&lt;p&gt;Before starting, if you don&amp;#39;t know what &lt;a href=&quot;http://en.wikipedia.org/wiki/I%C2%B2C&quot;&gt;I2C&lt;/a&gt; is, better check it out first. I&amp;#39;ll wait.&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 19 May 2014 22:28:26 +1000</pubDate>
+        <link>http://arcnor.github.io/quirky-nimbus-hacking-part-2/</link>
+        <guid isPermaLink="true">http://arcnor.github.io/quirky-nimbus-hacking-part-2/</guid>
+        
+        <category>hacking</category>
+        
+        <category>nimbus</category>
+        
+        <category>quirky</category>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Quirky Nimbus Hacking</title>
+        <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Part 2 is up! &lt;a href=&quot;/2014/05/19/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;a-bit-of-history&quot;&gt;A bit of history&lt;/h1&gt;
+
+&lt;p&gt;About two months ago, I became interested in a little device called the &lt;a href=&quot;https://www.quirky.com/shop/596-nimbus-your-personal-dashboard?r=3e94bcde665cb74c25b8a126fd0a9087&quot;&gt;Nimbus&lt;/a&gt;, by a company called &lt;a href=&quot;https://www.quirky.com/shop?r=3e94bcde665cb74c25b8a126fd0a9087&quot;&gt;Quirky&lt;/a&gt;. Basically, it&amp;#39;s a little dashboard that shows different messages or values depending on the configured action. You can also configure it as an alarm with an annoying &amp;#39;beep&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;On itself, the device was a bit useless for me, as it was oriented for social media (you can show your tweeted messages for example) and some other uses I don&amp;#39;t care about (like the time it will take you to arrive at work depending on the traffic. I walk to work :P).&lt;/p&gt;
+
+&lt;p&gt;But my inner hacker was very curious, so I did some investigation in order to learn how this device worked and the customization possibilities.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;I discovered the Nimbus uses an &lt;a href=&quot;https://electricimp.com/&quot;&gt;Electric IMP&lt;/a&gt; as its core. This little device is basically an ARM CPU tied with an always online cloud platform in which you code your firmware and gets deployed to all your devices.&lt;/p&gt;
+
+&lt;p&gt;The problem was, if I wanted to modify how the Nimbus worked, I had to &amp;quot;unbless&amp;quot; the device to add my code, and to do that you need to be the manufacturer. So I contacted the awesome support guys at Quirky (hey, Domenick!) and after explaining to them that I basically wanted to hack the device, they agreed to unbless it for me! They also warned me that I&amp;#39;d have to write everything from scratch, including fonts and everything else, because understandably I won&amp;#39;t have access to their firmware source, but that was part of the fun, so I was happy :).&lt;/p&gt;
+
+&lt;h1 id=&quot;the-specs&quot;&gt;The specs&lt;/h1&gt;
+
+&lt;p&gt;With those wonderful news, I ordered one and cracked it open the very first minute it arrived :D. I learned that internally, the device was as follows:&lt;/p&gt;
+
+&lt;p&gt;The interactive parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4 dials&lt;/li&gt;
+&lt;li&gt;4 blue LED matrix displays&lt;/li&gt;
+&lt;li&gt;2 buttons&lt;/li&gt;
+&lt;li&gt;1 speaker&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The brains:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 Electric Imp (imp002)&lt;/li&gt;
+&lt;li&gt;1 PIC16F1829&lt;/li&gt;
+&lt;li&gt;1 W25X40 (4MBit serial flash)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-details&quot;&gt;The details&lt;/h1&gt;
+
+&lt;p&gt;After checking the internals, I fired up my logic analyzer and started analyzing signals. This is what I discovered (only on the electric imp side, the one we can actually control)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pin 1 &amp;amp; Pin A: Controls the speaker. Pin A enables and disables the sound, where a PWM on pin 1 generates the sound itself. On the original firmware it&amp;#39;s used when an alarm sounds with an annoying &amp;#39;beeeep&amp;#39;, but I generated something more nice in my demo (check on the results at the bottom of the post).&lt;/li&gt;
+&lt;li&gt;Pin 2, 5, 6 &amp;amp; 7: Connected to the flash memory using an SPI interface (in order, DO, CLK, /CE and DI).&lt;/li&gt;
+&lt;li&gt;Pin 8 &amp;amp; 9: I2C between imp and PIC.&lt;/li&gt;
+&lt;li&gt;Pin C: Background brightness, using a simple PWM.&lt;/li&gt;
+&lt;li&gt;Pin D &amp;amp; E: Left/Right buttons.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;#39;ll left out the I2C protocol details (those used to control the dials and the LEDs) out so this post won&amp;#39;t become a monster, but if you want those, check the second part of this post (&lt;a href=&quot;/2014/05/19/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;) :).&lt;/p&gt;
+
+&lt;p&gt;All this also left me wonder if there is a way to reprogram the PIC from the electric imp itself (maybe with that unused pin B) but I&amp;#39;m not in the mood of tracing tracks on the PCB, and I cannot revert my Nimbus back to the original firmware, so I&amp;#39;m happy with the results :).&lt;/p&gt;
+
+&lt;h1 id=&quot;the-results&quot;&gt;The results&lt;/h1&gt;
+
+&lt;p&gt;With all those details, I created a simple firmware on my own that controls everything there is to control. I can even create a Quirky &lt;a href=&quot;https://www.quirky.com/shop/609-spotter-multi-purpose-sensor?r=3e94bcde665cb74c25b8a126fd0a9087&quot;&gt;Spotter&lt;/a&gt;, another of Quirky curious products, as I can read the amount of light the sensor of the imp receives (basically what the Spotter does).&lt;/p&gt;
+
+&lt;iframe 
+     width=&quot;532&quot; 
+     height=&quot;400&quot; 
+     src=&quot;https://www.youtube.com/embed/R2kULmfCv38&quot;
+     frameborder=&quot;0&quot; 
+     allowfullscreen=&quot;allowfullscreen&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;I don&amp;#39;t use the buttons here, but you can imagine what those do ;). I&amp;#39;m also currently waiting for the electric imp guys to provide me with a better way of changing the PWM frequency, as the trick I&amp;#39;m using right now produces clicks, and that&amp;#39;s why you don&amp;#39;t hear a better sound (I want to add some effects like the original speaker version :D)&lt;/p&gt;
+
+&lt;p&gt;Anyway, hope you like my little hacking! A lot of thanks to the Quirky guys for opening the device up for me, even if they didn&amp;#39;t have to, and specially to Domenick for going through all the process with me and being super helpful in general!.&lt;/p&gt;
+
+&lt;p&gt;As usual, comment or tweet if you have any questions or suggestions on what to hack next :)&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Part 2 is up! &lt;a href=&quot;/2014/05/19/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;a-bit-of-history&quot;&gt;A bit of history&lt;/h1&gt;
+
+&lt;p&gt;About two months ago, I became interested in a little device called the &lt;a href=&quot;https://www.quirky.com/shop/596-nimbus-your-personal-dashboard?r=3e94bcde665cb74c25b8a126fd0a9087&quot;&gt;Nimbus&lt;/a&gt;, by a company called &lt;a href=&quot;https://www.quirky.com/shop?r=3e94bcde665cb74c25b8a126fd0a9087&quot;&gt;Quirky&lt;/a&gt;. Basically, it&amp;#39;s a little dashboard that shows different messages or values depending on the configured action. You can also configure it as an alarm with an annoying &amp;#39;beep&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;On itself, the device was a bit useless for me, as it was oriented for social media (you can show your tweeted messages for example) and some other uses I don&amp;#39;t care about (like the time it will take you to arrive at work depending on the traffic. I walk to work :P).&lt;/p&gt;
+
+&lt;p&gt;But my inner hacker was very curious, so I did some investigation in order to learn how this device worked and the customization possibilities.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;I discovered the Nimbus uses an &lt;a href=&quot;https://electricimp.com/&quot;&gt;Electric IMP&lt;/a&gt; as its core. This little device is basically an ARM CPU tied with an always online cloud platform in which you code your firmware and gets deployed to all your devices.&lt;/p&gt;
+
+&lt;p&gt;The problem was, if I wanted to modify how the Nimbus worked, I had to &amp;quot;unbless&amp;quot; the device to add my code, and to do that you need to be the manufacturer. So I contacted the awesome support guys at Quirky (hey, Domenick!) and after explaining to them that I basically wanted to hack the device, they agreed to unbless it for me! They also warned me that I&amp;#39;d have to write everything from scratch, including fonts and everything else, because understandably I won&amp;#39;t have access to their firmware source, but that was part of the fun, so I was happy :).&lt;/p&gt;
+
+&lt;h1 id=&quot;the-specs&quot;&gt;The specs&lt;/h1&gt;
+
+&lt;p&gt;With those wonderful news, I ordered one and cracked it open the very first minute it arrived :D. I learned that internally, the device was as follows:&lt;/p&gt;
+
+&lt;p&gt;The interactive parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4 dials&lt;/li&gt;
+&lt;li&gt;4 blue LED matrix displays&lt;/li&gt;
+&lt;li&gt;2 buttons&lt;/li&gt;
+&lt;li&gt;1 speaker&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The brains:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 Electric Imp (imp002)&lt;/li&gt;
+&lt;li&gt;1 PIC16F1829&lt;/li&gt;
+&lt;li&gt;1 W25X40 (4MBit serial flash)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-details&quot;&gt;The details&lt;/h1&gt;
+
+&lt;p&gt;After checking the internals, I fired up my logic analyzer and started analyzing signals. This is what I discovered (only on the electric imp side, the one we can actually control)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pin 1 &amp;amp; Pin A: Controls the speaker. Pin A enables and disables the sound, where a PWM on pin 1 generates the sound itself. On the original firmware it&amp;#39;s used when an alarm sounds with an annoying &amp;#39;beeeep&amp;#39;, but I generated something more nice in my demo (check on the results at the bottom of the post).&lt;/li&gt;
+&lt;li&gt;Pin 2, 5, 6 &amp;amp; 7: Connected to the flash memory using an SPI interface (in order, DO, CLK, /CE and DI).&lt;/li&gt;
+&lt;li&gt;Pin 8 &amp;amp; 9: I2C between imp and PIC.&lt;/li&gt;
+&lt;li&gt;Pin C: Background brightness, using a simple PWM.&lt;/li&gt;
+&lt;li&gt;Pin D &amp;amp; E: Left/Right buttons.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;#39;ll left out the I2C protocol details (those used to control the dials and the LEDs) out so this post won&amp;#39;t become a monster, but if you want those, check the second part of this post (&lt;a href=&quot;/2014/05/19/quirky-nimbus-hacking-part-2/&quot;&gt;Quirky Nimbus Hacking (part 2)&lt;/a&gt;) :).&lt;/p&gt;
+
+&lt;p&gt;All this also left me wonder if there is a way to reprogram the PIC from the electric imp itself (maybe with that unused pin B) but I&amp;#39;m not in the mood of tracing tracks on the PCB, and I cannot revert my Nimbus back to the original firmware, so I&amp;#39;m happy with the results :).&lt;/p&gt;
+
+&lt;h1 id=&quot;the-results&quot;&gt;The results&lt;/h1&gt;
+
+&lt;p&gt;With all those details, I created a simple firmware on my own that controls everything there is to control. I can even create a Quirky &lt;a href=&quot;https://www.quirky.com/shop/609-spotter-multi-purpose-sensor?r=3e94bcde665cb74c25b8a126fd0a9087&quot;&gt;Spotter&lt;/a&gt;, another of Quirky curious products, as I can read the amount of light the sensor of the imp receives (basically what the Spotter does).&lt;/p&gt;
+
+&lt;iframe 
+     width=&quot;532&quot; 
+     height=&quot;400&quot; 
+     src=&quot;https://www.youtube.com/embed/R2kULmfCv38&quot;
+     frameborder=&quot;0&quot; 
+     allowfullscreen=&quot;allowfullscreen&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;I don&amp;#39;t use the buttons here, but you can imagine what those do ;). I&amp;#39;m also currently waiting for the electric imp guys to provide me with a better way of changing the PWM frequency, as the trick I&amp;#39;m using right now produces clicks, and that&amp;#39;s why you don&amp;#39;t hear a better sound (I want to add some effects like the original speaker version :D)&lt;/p&gt;
+
+&lt;p&gt;Anyway, hope you like my little hacking! A lot of thanks to the Quirky guys for opening the device up for me, even if they didn&amp;#39;t have to, and specially to Domenick for going through all the process with me and being super helpful in general!.&lt;/p&gt;
+
+&lt;p&gt;As usual, comment or tweet if you have any questions or suggestions on what to hack next :)&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 15 May 2014 19:58:05 +1000</pubDate>
+        <link>http://arcnor.github.io/quirky-nimbus-hacking/</link>
+        <guid isPermaLink="true">http://arcnor.github.io/quirky-nimbus-hacking/</guid>
+        
+        <category>hacking</category>
+        
+        <category>nimbus</category>
+        
+        <category>quirky</category>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Multi System Debugger</title>
+        <description>&lt;p&gt;I&amp;#39;ve decided to take a look at some of my existing and unfinished projects (basically everything, but that&amp;#39;s procrastination for you)&lt;/p&gt;
+
+&lt;p&gt;The first one I&amp;#39;m going to talk about is my Multi System Debugger/Emulator, &lt;a href=&quot;https://bitbucket.org/arcnor/anouckggms&quot;&gt;AnouckGGMS&lt;/a&gt;, something like &lt;a href=&quot;http://www.mess.org&quot;&gt;MESS&lt;/a&gt; but obviously way simpler and incomplete :).&lt;/p&gt;
+
+&lt;p&gt;Basically, I wanted to give emulation a try, and I decided to make my code extensible, so the common infrastructure can be used for multiple systems (what I call a system is a combination of CPU+GPU+peripherals). I started by implementing the CPU part of the systems, and implemented a Z80 and MOS6502 cores useful for different ones like the GameBoy or NES. Then I implemented the memory/IO structure of the different systems, so we have a way of reading our ROM and writing to RAM and to memory mapped peripherals.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Finally, to wire everything, I created both a &amp;quot;CPU debugger&amp;quot; and a &amp;quot;system debugger&amp;quot;. This just means that besides doing normal things like stepping through instructions (an action that differs based on the CPU type, as we can have fixed length instructions like ARM, or variable length like x86), the system debugger knows that some regions on memory are called X or Y (as an example, on the C64 the 0xFD02 address is used to check the cartridge), so the debugger has some comments specifying the known regions on memory. An idea that was not implemented (among another million ideas) was that besides specific regions in memory, a group of instructions can be identified and commented on as well (for example, a group of instructions in a particular order with a particular data or addresses might be used to check the status of the game controllers)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/generated/anouckggms-debugger-600x0-fcf930.png&quot; &gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, the debugger has a memory viewer (bottom left) with the different regions depending on the selected system, a simple console (top left) to enter commands, a breakpoint list (right) that right now doesn&amp;#39;t do much except listing the breakpoints and going to them when double clicking, and the debugger window itself (center). This last one has the disassembly of the loaded ROM, registers at the bottom and a graphical representation of the memory á la IDA Pro at the top (the colors represent data, code or unknown). I know the scrollbars look a bit odd, but I never finished customizing the look and feel I created for the app :).&lt;/p&gt;
+
+&lt;p&gt;And that&amp;#39;s mostly it. Right now is very incomplete, but you can debug some of the simplest provided ROMs (like the NES test), although the timings are not right yet. I also started to implement one of the GPUs (TMS9918 as it had the best docs IMHO and the part I implemented was very simple to do) and created a test for it.&lt;/p&gt;
+
+&lt;p&gt;One last thing: Related to this, I started revamping some old technical documents and uploaded them to another repo (&lt;a href=&quot;https://bitbucket.org/arcnor/techdocsrevamp&quot;&gt;TechDocsRevamp&lt;/a&gt;). Maybe in the future I&amp;#39;ll add more of those.&lt;/p&gt;
+
+&lt;p&gt;If you find this interesting, drop me a line here or on Twitter :).&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;I&amp;#39;ve decided to take a look at some of my existing and unfinished projects (basically everything, but that&amp;#39;s procrastination for you)&lt;/p&gt;
+
+&lt;p&gt;The first one I&amp;#39;m going to talk about is my Multi System Debugger/Emulator, &lt;a href=&quot;https://bitbucket.org/arcnor/anouckggms&quot;&gt;AnouckGGMS&lt;/a&gt;, something like &lt;a href=&quot;http://www.mess.org&quot;&gt;MESS&lt;/a&gt; but obviously way simpler and incomplete :).&lt;/p&gt;
+
+&lt;p&gt;Basically, I wanted to give emulation a try, and I decided to make my code extensible, so the common infrastructure can be used for multiple systems (what I call a system is a combination of CPU+GPU+peripherals). I started by implementing the CPU part of the systems, and implemented a Z80 and MOS6502 cores useful for different ones like the GameBoy or NES. Then I implemented the memory/IO structure of the different systems, so we have a way of reading our ROM and writing to RAM and to memory mapped peripherals.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Finally, to wire everything, I created both a &amp;quot;CPU debugger&amp;quot; and a &amp;quot;system debugger&amp;quot;. This just means that besides doing normal things like stepping through instructions (an action that differs based on the CPU type, as we can have fixed length instructions like ARM, or variable length like x86), the system debugger knows that some regions on memory are called X or Y (as an example, on the C64 the 0xFD02 address is used to check the cartridge), so the debugger has some comments specifying the known regions on memory. An idea that was not implemented (among another million ideas) was that besides specific regions in memory, a group of instructions can be identified and commented on as well (for example, a group of instructions in a particular order with a particular data or addresses might be used to check the status of the game controllers)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/generated/anouckggms-debugger-600x0-fcf930.png&quot; &gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, the debugger has a memory viewer (bottom left) with the different regions depending on the selected system, a simple console (top left) to enter commands, a breakpoint list (right) that right now doesn&amp;#39;t do much except listing the breakpoints and going to them when double clicking, and the debugger window itself (center). This last one has the disassembly of the loaded ROM, registers at the bottom and a graphical representation of the memory á la IDA Pro at the top (the colors represent data, code or unknown). I know the scrollbars look a bit odd, but I never finished customizing the look and feel I created for the app :).&lt;/p&gt;
+
+&lt;p&gt;And that&amp;#39;s mostly it. Right now is very incomplete, but you can debug some of the simplest provided ROMs (like the NES test), although the timings are not right yet. I also started to implement one of the GPUs (TMS9918 as it had the best docs IMHO and the part I implemented was very simple to do) and created a test for it.&lt;/p&gt;
+
+&lt;p&gt;One last thing: Related to this, I started revamping some old technical documents and uploaded them to another repo (&lt;a href=&quot;https://bitbucket.org/arcnor/techdocsrevamp&quot;&gt;TechDocsRevamp&lt;/a&gt;). Maybe in the future I&amp;#39;ll add more of those.&lt;/p&gt;
+
+&lt;p&gt;If you find this interesting, drop me a line here or on Twitter :).&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 13 May 2014 20:14:28 +1000</pubDate>
+        <link>http://arcnor.github.io/multi-system-debugger/</link>
+        <guid isPermaLink="true">http://arcnor.github.io/multi-system-debugger/</guid>
+        
+        <category>emulation</category>
+        
+        <category>projects</category>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Dr Drago&#39;s Madcap Chase Remake!</title>
+        <description>&lt;p&gt;For the past two weeks, and as part of a friendly challenge between friends, I worked on a remake (well, more like a port) of a game called &lt;a href=&quot;http://www.mobygames.com/game/windows/dr-dragos-madcap-chase&quot;&gt;&amp;quot;Dr. Drago&amp;#39;s Madcap Chase&amp;quot;&lt;/a&gt; (or in the original German, &amp;quot;Die Total Verrückte Rallye&amp;quot;)
+&lt;a href=&quot;http://arcnor.files.wordpress.com/2014/04/drdragotitle.jpg&quot;&gt;&lt;img src=&quot;http://arcnor.files.wordpress.com/2014/04/drdragotitle.jpg&quot; alt=&quot;Dr Drago&amp;#39;s Title&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;#39;t know the game, don&amp;#39;t worry too much, as from my sightings in forums, this is a relatively unknown game from BlueByte (you know, the guys from &lt;a href=&quot;http://www.mobygames.com/game/dos/albion&quot;&gt;Albion&lt;/a&gt;... although you probably don&amp;#39;t know that one as well. However, &lt;a href=&quot;http://www.mobygames.com/game-group/settlers-series&quot;&gt;The Settlers&lt;/a&gt; will surely ring a bell).&lt;/p&gt;
+
+&lt;p&gt;I discovered this game many years ago, and I thought it was very funny. Basically, it&amp;#39;s a &lt;em&gt;Monopoly&lt;/em&gt; game with a few additions, but you really need to try it with a few friends to see all the little details they added.&lt;/p&gt;
+
+&lt;p&gt;What I did was create a few utils to convert the graphics from the game data files to PNGs, the map data files to &lt;a href=&quot;http://www.mapeditor.org&quot;&gt;Tiled&lt;/a&gt; TMX format, and the cities information data files to JSON.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Then, I mixed all this using the awesome &lt;a href=&quot;http://haxeflixel.com/&quot;&gt;Haxe Flixel&lt;/a&gt; engine. That means the game works with little or no changes on a computer (Mac / Linux / Windows), iOS (it looks very nice on iPad, as the original assets are exactly the right resolution, 1024x768) and Android (and some others, like Tizen, Firefox OS or Blackberry, but I haven&amp;#39;t tried those).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arcnor.files.wordpress.com/2014/04/gamescene.png&quot;&gt;&lt;img src=&quot;http://arcnor.files.wordpress.com/2014/04/gamescene.png&quot; alt=&quot;Remake scene&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It looks almost exactly the same as the original (some things are pixel-by-pixel in the same position), although it has better font rendering, some dialogs are centered differently on the screen, and a few fades for menus and other interface elements.&lt;/p&gt;
+
+&lt;p&gt;The game is far from finished (two weeks working sporadically is not enough to finish a game this size), but you can move around the map, winning or losing money, as well as getting cards (like the screenshot shows). Your destination is also shown and the shortest route is displayed for you using arrows, like in the original (the algorithm might be different, though).&lt;/p&gt;
+
+&lt;p&gt;We have another challenge (this time a full month) so sadly I won&amp;#39;t be finishing this anytime soon. I, however, might finish it in the future as it looks too nice not to.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;d also like to publish the source, although I need to find a way of not having to upload the assets, as I don&amp;#39;t want any legal trouble (doubtful, but who knows). Maybe releasing the tools to automatically create the new assets from the originals will suffice. Even the demo has (almost) all the needed assets, although they are in a lower resolution.&lt;/p&gt;
+
+&lt;p&gt;Anyway, drop me a line on my (mostly empty) Twitter if you want any details.&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;For the past two weeks, and as part of a friendly challenge between friends, I worked on a remake (well, more like a port) of a game called &lt;a href=&quot;http://www.mobygames.com/game/windows/dr-dragos-madcap-chase&quot;&gt;&amp;quot;Dr. Drago&amp;#39;s Madcap Chase&amp;quot;&lt;/a&gt; (or in the original German, &amp;quot;Die Total Verrückte Rallye&amp;quot;)
+&lt;a href=&quot;http://arcnor.files.wordpress.com/2014/04/drdragotitle.jpg&quot;&gt;&lt;img src=&quot;http://arcnor.files.wordpress.com/2014/04/drdragotitle.jpg&quot; alt=&quot;Dr Drago&amp;#39;s Title&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;#39;t know the game, don&amp;#39;t worry too much, as from my sightings in forums, this is a relatively unknown game from BlueByte (you know, the guys from &lt;a href=&quot;http://www.mobygames.com/game/dos/albion&quot;&gt;Albion&lt;/a&gt;... although you probably don&amp;#39;t know that one as well. However, &lt;a href=&quot;http://www.mobygames.com/game-group/settlers-series&quot;&gt;The Settlers&lt;/a&gt; will surely ring a bell).&lt;/p&gt;
+
+&lt;p&gt;I discovered this game many years ago, and I thought it was very funny. Basically, it&amp;#39;s a &lt;em&gt;Monopoly&lt;/em&gt; game with a few additions, but you really need to try it with a few friends to see all the little details they added.&lt;/p&gt;
+
+&lt;p&gt;What I did was create a few utils to convert the graphics from the game data files to PNGs, the map data files to &lt;a href=&quot;http://www.mapeditor.org&quot;&gt;Tiled&lt;/a&gt; TMX format, and the cities information data files to JSON.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Then, I mixed all this using the awesome &lt;a href=&quot;http://haxeflixel.com/&quot;&gt;Haxe Flixel&lt;/a&gt; engine. That means the game works with little or no changes on a computer (Mac / Linux / Windows), iOS (it looks very nice on iPad, as the original assets are exactly the right resolution, 1024x768) and Android (and some others, like Tizen, Firefox OS or Blackberry, but I haven&amp;#39;t tried those).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arcnor.files.wordpress.com/2014/04/gamescene.png&quot;&gt;&lt;img src=&quot;http://arcnor.files.wordpress.com/2014/04/gamescene.png&quot; alt=&quot;Remake scene&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It looks almost exactly the same as the original (some things are pixel-by-pixel in the same position), although it has better font rendering, some dialogs are centered differently on the screen, and a few fades for menus and other interface elements.&lt;/p&gt;
+
+&lt;p&gt;The game is far from finished (two weeks working sporadically is not enough to finish a game this size), but you can move around the map, winning or losing money, as well as getting cards (like the screenshot shows). Your destination is also shown and the shortest route is displayed for you using arrows, like in the original (the algorithm might be different, though).&lt;/p&gt;
+
+&lt;p&gt;We have another challenge (this time a full month) so sadly I won&amp;#39;t be finishing this anytime soon. I, however, might finish it in the future as it looks too nice not to.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;d also like to publish the source, although I need to find a way of not having to upload the assets, as I don&amp;#39;t want any legal trouble (doubtful, but who knows). Maybe releasing the tools to automatically create the new assets from the originals will suffice. Even the demo has (almost) all the needed assets, although they are in a lower resolution.&lt;/p&gt;
+
+&lt;p&gt;Anyway, drop me a line on my (mostly empty) Twitter if you want any details.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 25 Mar 2014 16:34:27 +1100</pubDate>
+        <link>http://arcnor.github.io/dr-dragos-madcap-chase-remake/</link>
+        <guid isPermaLink="true">http://arcnor.github.io/dr-dragos-madcap-chase-remake/</guid>
+        
+        <category>haxe</category>
+        
+        <category>haxeflixel</category>
+        
+        <category>remakes</category>
+        
+        
+      </item>
+      
+    
+  </channel>
+</rss>
